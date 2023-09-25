@@ -48,7 +48,7 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
-qaguru_lessons/.pytest_cache/
+.pytest_cache/
 cover/
 
 # Translations
@@ -165,5 +165,3 @@ cython_debug/
 /.idea/qaguru.iml
 /.idea/vcs.xml
 /.idea/workspace.xml
-/.pytest_cache/v/cache/lastfailed
-/.pytest_cache/v/cache/stepwise
