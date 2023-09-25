@@ -48,7 +48,7 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
-.pytest_cache/
+qaguru_lessons/.pytest_cache/
 cover/
 
 # Translations
@@ -158,3 +158,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/qaguru.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.pytest_cache/v/cache/lastfailed
+/.pytest_cache/v/cache/stepwise
