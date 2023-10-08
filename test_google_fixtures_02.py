@@ -1,6 +1,5 @@
 from selene.support.shared import browser
-from selene import be, have, query
-import pytest
+from selene import be, have
 
 
 def test_search_yashaka(browser_init):

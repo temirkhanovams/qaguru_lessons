@@ -1,5 +1,7 @@
 from selene.support.shared import browser
 import pytest
+
+
 @pytest.fixture(scope='function')
 def browser_init():
     print('Открываю браузер')
