@@ -8,6 +8,6 @@ def test_search_yashaka(browser_init):
 
 
 def test_search_none(browser_init):
-    browser.element('[name="q"]').should(be.blank).type('(*&^%$#@WERHJNBVCX!!!!').press_enter()
+    browser.element('[name="q"]').should(be.blank).type('*&^%$#@WERHJNBVC').press_enter()
     browser.element('#extabar #result-stats').should(have.text('Результатов: примерно 0'))
-    browser.element('p[role="heading"]').should(have.text(r'По запросу (*&^%$#@WERHJNBVCX!!!! ничего не найдено.'))
+    browser.element('p[role="heading"]').should(have.text(r'По запросу *&^%$#@WERHJNBVC ничего не найдено.'))
