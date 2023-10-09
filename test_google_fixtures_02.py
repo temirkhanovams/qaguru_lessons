@@ -4,7 +4,7 @@ from selene import be, have
 
 def test_search_yashaka(browser_init):
     browser.element('[name="q"]').should(be.blank).type('yashaka/selene').press_enter()
-    browser.element('[id="search"]').should(have.text('yashaka/selene:'))
+    browser.element('[id="search"]').should(have.text('yashaka/selene: User-oriented Web UI browser'))
 
 
 def test_search_none(browser_init):
